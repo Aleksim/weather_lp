@@ -1,0 +1,91 @@
+/*css debug tools*/
+
+.showborder {
+  border-width: 3px;
+  border-style: solid;
+  border-color: red;
+}
+
+/*Hero*/
+.maincolumns {
+  border-width: 3px;
+  border-style: solid;
+  border-color: blueviolet;
+  height: 600px;
+  width: auto;
+}
+
+.movetocenter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+
+.feature-item-text {
+  margin-left: 20px;
+  font-size: 1.3rem;
+}
+
+.buttons-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+}
+
+.form-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+
+/*safety*/
+.safety-main {
+  height: 500px;
+  width: auto;
+}
+
+.comparison {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+
+/*footer color*/
+.footer-background {
+  background: rgb(44, 20, 48);
+  background: linear-gradient(
+    0deg,
+    rgba(44, 20, 48, 1) 0%,
+    rgba(31, 29, 31, 1) 100%
+  );
+}
