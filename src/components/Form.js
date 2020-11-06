@@ -6,9 +6,9 @@ const Form = () => {
             <div>
                 <form action="https://formspree.io/f/xyybjoka" method="POST">
                     <div className="form-list">
-                        <div>
-                            <input className="input" type="email" name="email" placeholder="email"/>
-                        </div>
+                        
+                        <input className="input input-style" type="email" name="email" placeholder="email"/>
+                        
                         <button type="submit" className="button is-link">
                             Submit
                         </button>

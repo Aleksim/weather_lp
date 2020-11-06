@@ -6,12 +6,36 @@
   border-color: red;
 }
 
+/* colors */
+.general-background {
+  background-color: #36393f;
+}
+
 /*Hero*/
+.heroheader {
+  font-size: 3em;
+  color: #fcfcfc;
+}
+
+.hero-value-prop {
+  font-size: 2em;
+  color: #fcfcfc;
+}
+
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
 .maincolumns {
   border-width: 3px;
   border-style: solid;
   border-color: blueviolet;
-  height: 600px;
+  height: 650px;
   width: auto;
 }
 
@@ -29,8 +53,9 @@
   justify-content: flex-start;
   align-items: stretch;
   align-content: stretch;
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #fcfcfc;
 }
 
 .feature-item {
@@ -47,28 +72,72 @@
   font-size: 1.3rem;
 }
 
+.form-container {
+  height: 70px;
+  width: auto;
+}
+
 .buttons-list {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  align-content: stretch;
+  align-content: center;
 }
 
 .form-list {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  align-content: space-around;
+  align-content: center;
+}
+
+.sign-up-text {
+  color: #fcfcfc;
+  font-size: 1.3em;
+}
+
+.input-style {
+  margin-right: 20px;
 }
 
 /*safety*/
 .safety-main {
   height: 500px;
   width: auto;
+  color: #fcfcfc;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+
+.description-text {
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 1.3em;
+}
+
+.column-space {
+  margin-top: 30px;
+}
+
+.column-flex-safety {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
 }
 
 .comparison {
@@ -80,12 +149,17 @@
   align-content: space-around;
 }
 
+.safetyheader {
+  font-size: 2.7em;
+}
+
 /*footer color*/
 .footer-background {
-  background: rgb(44, 20, 48);
+  background: rgb(62, 28, 68);
   background: linear-gradient(
     0deg,
-    rgba(44, 20, 48, 1) 0%,
-    rgba(31, 29, 31, 1) 100%
+    rgba(62, 28, 68, 1) 0%,
+    rgba(54, 57, 63, 1) 100%
   );
+  color: #fcfcfc;
 }

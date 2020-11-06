@@ -6,7 +6,7 @@ import "../pages/mystyles.scss"
 
 const getPhone = graphql`
   {
-    fluid: file(relativePath: { eq: "iphone2020.png" }) {
+    fluid: file(relativePath: { eq: "iphone2020_demo.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
@@ -25,7 +25,7 @@ const Phone = () => {
               className="image showborder"
               style={{
                 height: "auto",
-                width: "300px",
+                width: "450px",
                 marginLeft: "5px",
                 marginRight: "5px",
               }}
