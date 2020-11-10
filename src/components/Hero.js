@@ -26,12 +26,11 @@ const openInNewTab = (url) => {
                                 <button onClick={()=>{openInNewTab('https://www.pointng.io/')}} class="button b-text is-primary is-medium">Try it out now! </button>
                                     <div className="section">
                                         <div className="container features-list">
-
+                                        <div className="">
                                             <li className="feature-item">
                                                 <FiShield size={60}/>
                                                 <p className="feature-item-text">Super Secure</p>
                                             </li>
-                                            
                                             <li className="feature-item">
                                                 <BiBullseye size={60}/>
                                                 <p className="feature-item-text">Accurate</p>
@@ -40,6 +39,7 @@ const openInNewTab = (url) => {
                                                 <FiHeart size={60}/>
                                                 <p className="feature-item-text">Open source</p>
                                             </li>
+                                            </div>
                                         </div>
                                     </div>
                         </div>

@@ -13,11 +13,11 @@ const Footer = () => {
         <div className="columns">
           <div className="column">
             <div>
-                <b>Created by Grew in the EU.</b>
+                <b>Created by Grew in the EU </b> <p> by @ihmissuti, @aleksimmonen and @JMeriluoto</p>
             </div>
           </div>
           <div className="column">
-            <p className="footer-heading">Contact</p>
+            <p className="footer-heading"><b>Contact</b></p>
             <p>Lorem ipsum</p>
             <a>
               <FaLinkedin className="icon"></FaLinkedin>
