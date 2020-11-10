@@ -2,57 +2,53 @@ import React from 'react'
 import Phone from '../components/Phone'
 import Form from '../components/Form'
 import { FiShield, FiHeart } from "react-icons/fi"
+import { BiBullseye } from "react-icons/bi";
 
 import "../pages/mystyles.scss"
 import "../css/main.css"
 
 const Hero = () => {
+
+const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+}
+
     return (
         <div className="section">
-            <div className="container showborder column-flex">
-                <div className="columns ">
-                    <div className="column maincolumns is-three-fifths">
+            <div className="container">
+                <div className="columns columns-flex ">
+                    <div className="column  maincolumns is-three-fifths">
                         <div className="content has-text-centered ">
                             
-                                <p className="movetocenter heroheader">Blob</p>
-                                <p className="movetocenter hero-value-prop">value prop for the greatest weather app ever created.</p>
-                                <button class="button is-primary is-medium">Try it out now! </button>
+                                <p className="movetocenter heroheader">Secure Local Weather</p>
+                                <p className="movetocenter hero-value-prop">Get your accurate local weather forecast without sending any coordinate data to 3rd party services.</p>
+                                <button onClick={()=>{openInNewTab('https://www.pointng.io/')}} class="button b-text is-primary is-medium">Try it out now! </button>
                                     <div className="section">
-                                        <div className="container features-list showborder">
-                                            
+                                        <div className="container features-list">
+
                                             <li className="feature-item">
-                                                <FiShield size="2em" className="icon"/>
-                                                <p>Super Secure</p>
+                                                <FiShield size={60}/>
+                                                <p className="feature-item-text">Super Secure</p>
                                             </li>
                                             
                                             <li className="feature-item">
-                                                <FiShield className="icon" />
-                                                <p>Minimal design</p>
+                                                <BiBullseye size={60}/>
+                                                <p className="feature-item-text">Accurate</p>
                                             </li>
                                             <li className="feature-item">
-                                                <FiShield className="icon" />
-                                                <p>Super Secure</p>
+                                                <FiHeart size={60}/>
+                                                <p className="feature-item-text">Open source</p>
                                             </li>
                                         </div>
                                     </div>
-                            <div className="section">
-                                <div className="container">
-                                    <div className="showborder">
-                                        <p className="sign-up-text">Sign up for proper release here</p>
-                                        <div class="movetocenter">
-                                            <Form />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        
                         </div>
                     </div>
 
 
 
 
-                    <div class="column">
+                    <div class="column ">
                         <Phone />
                     </div>
                 </div>

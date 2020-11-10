@@ -22,7 +22,7 @@ const Phone = () => {
       
         <div className="movetocenter">
               <Image
-              className="image showborder"
+              className="image "
               style={{
                 height: "auto",
                 width: "450px",

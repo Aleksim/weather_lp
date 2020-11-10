@@ -7,6 +7,7 @@ import "../pages/mystyles.scss"
 const Footer = () => {
 
   return (
+    
     <footer className="footer footer-background">
       <div className="content has-text-centered">
         <div className="columns">
@@ -28,6 +29,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    
   )
 }
 

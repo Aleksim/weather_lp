@@ -8,18 +8,24 @@
 
 /* colors */
 .general-background {
-  background-color: #36393f;
+  background-color: #3e3f49;
 }
 
 /*Hero*/
 .heroheader {
   font-size: 3em;
   color: #fcfcfc;
+  font-family: "Poppins";
 }
 
 .hero-value-prop {
-  font-size: 2em;
+  font-size: 1.8em;
   color: #fcfcfc;
+  font-family: "Poppins";
+}
+
+.b-text {
+  font-family: "Poppins";
 }
 
 .column-flex {
@@ -32,10 +38,7 @@
 }
 
 .maincolumns {
-  border-width: 3px;
-  border-style: solid;
-  border-color: blueviolet;
-  height: 650px;
+  height: 800px;
   width: auto;
 }
 
@@ -51,11 +54,11 @@
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  align-items: stretch;
+  align-items: center;
   align-content: stretch;
-  margin-right: 20px;
-  margin-left: 20px;
+
   color: #fcfcfc;
+  margin-top: 35px;
 }
 
 .feature-item {
@@ -65,11 +68,13 @@
   justify-content: flex-start;
   align-items: center;
   align-content: stretch;
+  margin-bottom: 35px;
+  font-family: "Poppins";
 }
 
 .feature-item-text {
   margin-left: 20px;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
 }
 
 .form-container {
@@ -98,17 +103,28 @@
 .sign-up-text {
   color: #fcfcfc;
   font-size: 1.3em;
+  font-family: "Poppins";
 }
 
 .input-style {
   margin-right: 20px;
 }
 
+/*phone*/
+.phone-space {
+  margin-top: 80px;
+}
+
 /*safety*/
-.safety-main {
-  height: 500px;
-  width: auto;
+.safetyheader {
+  font-size: 2.7em;
   color: #fcfcfc;
+  font-family: "Poppins";
+}
+
+.maincolumns-safety {
+  height: 600px;
+  width: auto;
 }
 
 .description {
@@ -125,41 +141,57 @@
   margin-right: 20px;
   margin-left: 20px;
   font-size: 1.3em;
+  color: #fcfcfc;
+  font-family: "Poppins";
+}
+
+.columns-space {
+  margin-top: 50px;
 }
 
 .column-space {
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
-.column-flex-safety {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
+.animation-text {
+  font-size: 1.5em;
+  font-family: "Poppins";
+  color: #fcfcfc;
 }
 
-.comparison {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: space-around;
+.animation-text-description {
+  font-size: 1.3em;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  font-family: "Poppins";
+  color: #fcfcfc;
 }
 
-.safetyheader {
-  font-size: 2.7em;
+.animation-button {
+  margin-top: 5px;
+}
+
+.safety-animation {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.sign-up-form {
+  margin-top: 100px;
 }
 
 /*footer color*/
 .footer-background {
-  background: rgb(62, 28, 68);
+  margin-top: 50px;
+  background: rgb(79, 24, 134);
   background: linear-gradient(
     0deg,
-    rgba(62, 28, 68, 1) 0%,
-    rgba(54, 57, 63, 1) 100%
+    rgba(79, 24, 134, 1) 0%,
+    rgba(62, 63, 73, 1) 100%
   );
   color: #fcfcfc;
 }
