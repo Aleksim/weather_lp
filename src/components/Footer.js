@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="columns">
           <div className="column">
             <div>
-                All rights reserved
+                <b>Created by Grew in the EU.</b>
             </div>
           </div>
           <div className="column">

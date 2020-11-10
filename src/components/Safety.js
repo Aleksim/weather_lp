@@ -1,8 +1,8 @@
 import React from 'react'
 import "../pages/mystyles.scss"
 import "../css/main.css"
-import traditionalgif from '../assets/traditional.gif'
-import pointng from '../assets/pointng.gif'
+import traditionalgif from '../assets/traditional2.gif'
+import pointng from '../assets/pointng2.gif'
 import Form from '../components/Form'
 
 const Safety = () => {
@@ -24,7 +24,7 @@ const Safety = () => {
                                 <img className="safety-animation" src={pointng} width="300px" alt="Hpw traditional location identification" />
                             </div>
                             </div>
-                            <p className="animation-text-description">Instead of sending exact coordinate data to third parties, Secure Local Weather utilizes pointNG in location identification. PointNG returns a chain of neural networks that guess the location of the user in the client interface.</p>
+                            <p className="animation-text-description">Secure Local Weather utilizes pointNG in location identification and <b>never sends coordinate data over the internet</b>.</p>
                             <button class="button is-primary animation-button">Read More</button>
 
                         </div>
@@ -35,13 +35,13 @@ const Safety = () => {
                                 <img className="safety-animation" src={traditionalgif} width="300px" alt="Hpw traditional location identification" />
                             </div>
                             </div>
-                            <p className="animation-text-description">Typical location based services send the users exact location coordinates over the internet to third party services. In return, te third party services return reverse geocoded location data to the service.</p>
+                            <p className="animation-text-description">Typical weather apps send <b>the users exact location coordinates over the internet to third party services</b>.</p>
                         </div>
                     </div>
                             <div className="container">
                                 <div className="content">
                                     <div className="movetocenter sign-up-form">
-                                        <p className="sign-up-text">Sign up for proper release here:</p>
+                                        <p className="sign-up-text">Sign up for secure weather updates here:</p>
                                         <div style={{marginLeft:"20px"}}>
                                             <Form />
                                         </div>
