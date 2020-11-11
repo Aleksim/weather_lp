@@ -18,5 +18,16 @@ module.exports = {
         fonts: [`Permanent Marker`, "Roboto", "Poppins"],
         display: "swap",
       },
-    },],
+    },
+  {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Poppins`,
+          },
+
+        ],
+      },
+    }],
 }

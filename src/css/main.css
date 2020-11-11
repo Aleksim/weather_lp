@@ -57,7 +57,7 @@
   align-items: center;
   align-content: stretch;
   color: #fcfcfc;
-  margin-top: 35px;
+  margin-top: 5px;
 }
 
 .threefeatures {
@@ -79,6 +79,10 @@
 .feature-item-text {
   margin-left: 20px;
   font-size: 1.7rem;
+}
+
+.form-section {
+  margin-top: 10px;
 }
 
 .form-container {
@@ -124,6 +128,7 @@
   font-size: 2.7em;
   color: #fcfcfc;
   font-family: "Poppins";
+  text-align: center;
 }
 
 .maincolumns-safety {
@@ -175,13 +180,14 @@
 
 .animation-button {
   margin-top: 5px;
+  margin-left: 10px;
 }
 
 .safety-animation {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
 }
 
 .sign-up-form {
@@ -194,13 +200,36 @@
   align-content: stretch;
 }
 
-/*footer color*/
+/*footer */
+.creators {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.grew {
+  font-weight: 500;
+  font-size: 1.6em;
+  color: #fcfcfc;
+}
+.footer-heading {
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
 .footer-background {
   margin-top: 50px;
-  background: rgb(79, 24, 134);
+  background: rgb(52, 23, 158);
   background: linear-gradient(
     0deg,
-    rgba(79, 24, 134, 1) 0%,
+    rgba(52, 23, 158, 1) 0%,
     rgba(62, 63, 73, 1) 100%
   );
   color: #fcfcfc;

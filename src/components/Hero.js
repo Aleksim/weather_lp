@@ -1,6 +1,6 @@
 import React from 'react'
 import Phone from '../components/Phone'
-import Form from '../components/Form'
+
 import { FiShield, FiHeart } from "react-icons/fi"
 import { BiBullseye } from "react-icons/bi";
 
