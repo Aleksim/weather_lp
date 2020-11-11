@@ -34,16 +34,17 @@ const Safety = () => {
                             <button onClick={()=>{openInNewTab('https://www.pointng.io/')}} class="button is-primary animation-button">Read More About pointNG</button>
 
                         </div>
-                        <div className="column column-space  maincolumns-safety">
+                        <div className="column column-space maincolumns-safety">
                             <div className="box">
                             <div className="content ">
                                 <p className="movetocenter animation-text">How location identification works in traditional weather apps:</p>
                                 <img className="safety-animation" src={traditionalgif} alt="traditional location identification" />
                             </div>
                             </div>
-                            <p className="animation-text-description">Typical weather apps send <b>the users exact location coordinates, over the internet, to third party services</b>.</p>
+                            <p className="animation-text-description">Typical weather apps send the users exact location coordinates, over the internet, to third party services.</p>
                         </div>
                     </div>
+        
                         <div className="section form-section">
                             <div className="container">
                                 <div className="content">

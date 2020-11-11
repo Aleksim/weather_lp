@@ -38,7 +38,7 @@
 }
 
 .maincolumns {
-  height: 850px;
+  height: 900px;
   width: auto;
 }
 
@@ -188,6 +188,12 @@
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+}
+.statement {
+  color: #fcfcfc;
+  font-family: "Poppins";
+  font-size: 1.7em;
+  text-decoration: underline;
 }
 
 .sign-up-form {
